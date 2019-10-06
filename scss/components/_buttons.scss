@@ -1,7 +1,7 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $colour-white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -9,23 +9,23 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $colour-secondary;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $colour-error;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $colour-info;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $colour-success;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $colour-warning;
 }
 
 @media (min-width: 768px) {
