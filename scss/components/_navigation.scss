@@ -21,7 +21,7 @@
   background-color: $colour-primary;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $medium-screen) {
 
   .nav {
     flex-direction: row;

@@ -28,7 +28,7 @@
   background-color: $colour-warning;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $medium-screen) {
 
   .btn {
     padding: 10px 30px;
