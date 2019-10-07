@@ -68,7 +68,7 @@
   flex-basis: 100%;
 }
 
-@media (min-width: $medium-screen) {
+@include mq(md) {
 
   .container {
     max-width: 1400px;
