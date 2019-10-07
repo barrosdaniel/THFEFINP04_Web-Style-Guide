@@ -20,7 +20,7 @@
     background-color: $colour-primary;
   }
 
-  @media (min-width: $medium-screen) {
+  @include mq(md) {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -28,7 +28,6 @@
     &-link {
       flex-basis: 100px;
     }
-
   }
 
 }
