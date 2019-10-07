@@ -13,11 +13,11 @@
     transition:
       background-color .2s ease-in-out,
       color .2s ease-in-out;
-  }
 
-  &-link:hover {
-    color: $colour-white;
-    background-color: $colour-primary;
+    &:hover {
+      color: $colour-white;
+      background-color: $colour-primary;
+    }
   }
 
   @include mq(md) {
