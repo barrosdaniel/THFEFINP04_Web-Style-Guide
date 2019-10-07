@@ -50,7 +50,7 @@
   }
 }
 
-@media (min-width: $medium-screen) {
+@include mq(md) {
 
   .btn {
     padding: 10px 30px;
@@ -61,3 +61,17 @@
   }
 
 }
+
+
+
+// @media (min-width: $medium-screen) {
+
+//   .btn {
+//     padding: 10px 30px;
+//   }
+
+//   .btn+.btn {
+//     margin-left: 10px;
+//   }
+
+// }
