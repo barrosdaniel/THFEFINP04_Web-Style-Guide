@@ -8,6 +8,16 @@
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s;
+
+  @include mq(md) {
+    padding: 10px 30px;
+  }
+
+  &+.btn {
+    @include mq(md) {
+      margin-left: 10px;
+    }
+  }
 }
 
 .default {
@@ -49,29 +59,3 @@
     background-color: lighten($colour-warning, 15%);
   }
 }
-
-@include mq(md) {
-
-  .btn {
-    padding: 10px 30px;
-  }
-
-  .btn+.btn {
-    margin-left: 10px;
-  }
-
-}
-
-
-
-// @media (min-width: $medium-screen) {
-
-//   .btn {
-//     padding: 10px 30px;
-//   }
-
-//   .btn+.btn {
-//     margin-left: 10px;
-//   }
-
-// }

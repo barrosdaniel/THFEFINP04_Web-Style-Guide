@@ -538,6 +538,16 @@ a {
   cursor: pointer;
   transition: all 0.3s;
 }
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+}
+@media (min-width: 768px) {
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
 
 .default {
   background-color: #51ddfc;
@@ -574,15 +584,6 @@ a {
   background-color: #feb4a2;
 }
 
-@media (min-width: 768px) {
-  .btn {
-    padding: 10px 30px;
-  }
-
-  .btn + .btn {
-    margin-left: 10px;
-  }
-}
 .form {
   flex-basis: 100%;
 }
