@@ -6,26 +6,48 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .default {
   background-color: $colour-secondary;
+
+  &:hover {
+    background-color: lighten($colour-secondary, 15%);
+  }
 }
 
 .error {
   background-color: $colour-error;
+
+  &:hover {
+    background-color: lighten($colour-error, 15%);
+  }
 }
 
 .info {
   background-color: $colour-info;
+
+  &:hover {
+    background-color: lighten($colour-info, 15%);
+  }
 }
 
 .success {
   background-color: $colour-success;
+
+  &:hover {
+    background-color: lighten($colour-success, 15%);
+  }
 }
 
 .warning {
   background-color: $colour-warning;
+
+  &:hover {
+    background-color: lighten($colour-warning, 15%);
+  }
 }
 
 @media (min-width: $medium-screen) {
