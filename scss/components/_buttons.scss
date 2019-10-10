@@ -24,7 +24,7 @@
   background-color: $colour-secondary;
 
   &:hover {
-    background-color: lighten(15%);
+    background-color: lighten($colour-secondary, 15%);
   }
 }
 
@@ -32,7 +32,7 @@
   background-color: $colour-error;
 
   &:hover {
-    background-color: lighten(15%);
+    background-color: lighten($colour-error, 15%);
   }
 }
 
@@ -40,7 +40,7 @@
   background-color: $colour-info;
 
   &:hover {
-    background-color: lighten(15%);
+    background-color: lighten($colour-info, 15%);
   }
 }
 
@@ -48,7 +48,7 @@
   background-color: $colour-success;
 
   &:hover {
-    background-color: lighten(15%);
+    background-color: lighten($colour-success, 15%);
   }
 }
 
@@ -56,6 +56,6 @@
   background-color: $colour-warning;
 
   &:hover {
-    background-color: lighten(15%);
+    background-color: lighten($colour-warning, 15%);
   }
 }
